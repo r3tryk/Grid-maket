@@ -1,4 +1,40 @@
+
+body {
+    background-image: url(../img/BG.png);
+}
+
 .header {
+    max-width: 1500px;
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template: 50px / 135px 210px;
+    grid-auto-flow: column;
+    color: aqua;
+}
+
+.header-contacts {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+main {
+    background-image: url(../img/girls.png);
+    max-width: 1500px;
+    width: 70%;
+    margin: 0 auto;
+    height: 750px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h3, h2 {
+    margin: 20px;
+    color: aqua;
 }
